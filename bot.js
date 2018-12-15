@@ -2,8 +2,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = "A";
 
-                                   الاقتراحات كود 
-
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
