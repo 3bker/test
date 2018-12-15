@@ -1,4 +1,4 @@
-﻿const Discord = require("discord.js");
+const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = "A";
 
@@ -31,12 +31,8 @@ client.on('message', message => {
 
 
 
-
-
-
-
 client.on('guildMemberAdd', member=> {
-    member.addRole(member.guild.roles.find("name","اسم الرتبه"));
+    member.addRole(member.guild.roles.find("MEMBER","اسم الرتبه"));
     });
 
 
