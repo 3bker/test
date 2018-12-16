@@ -97,7 +97,7 @@ client.on('message', message => {
         color: 0x06DF00,
         description: "يمنع النشر في هذا السيرفر",
         footer: {
-          text: "By Abo Khalil"
+          text: "3bker"
         }
       }}).then(msg => {msg.delete(3000)});
                           }
