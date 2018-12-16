@@ -106,4 +106,12 @@ client.on('message', message => {
 }); 
 
 
+
+client.on('message', message => {
+    if (message.content === 'zg') {
+        message.reply('pong');
+      }
+});
+
+
 client.login(process.env.BOT_TOKEN);
